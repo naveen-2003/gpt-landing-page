@@ -25,8 +25,8 @@ const Hero = () => {
             Get Started
           </button>
         </div>
-        <div className="flex justify-center flex-wrap gap-y-5 sm:justify-normal">
-          <div className="flex">
+        <div className="flex justify-center flex-wrap lg:flex-nowrap gap-y-5 sm:justify-normal">
+          <div className="flex relative left-[30px] sm:left-0">
             {Array.from({ length: 6 }).map((_, index) => (
               <img
                 key={index}
@@ -46,7 +46,7 @@ const Hero = () => {
               <span>1.6k+</span>
             </div>
           </div>
-          <div className="flex items-center justify-center text-xs ml-[-40px]">
+          <div className="flex items-center justify-center text-xs sm:ml-[-40px]">
             <span>1,600 people requested access a visit in last 24 hours</span>
           </div>
         </div>

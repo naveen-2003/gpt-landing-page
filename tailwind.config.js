@@ -8,10 +8,6 @@ export default {
         secondary: "#81AFDD",
         tertiary: "#FF4820",
       },
-      screens: {
-
-        "2xl": "1440px",
-      },
     },
   },
   plugins: [],
